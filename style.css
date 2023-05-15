@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.625em;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 25px 30px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar ul li a:hover{
+  color: green;
+  transition: 2s;
+}
+
+
+
+button {
+  background: rgb(111, 194, 71);
+  color: white;
+  border: none;
+  border-radius: 0.3125em;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1em;
+  transform: 3s;
+}
+
+button:hover{
+  cursor: pointer;
+  transform:scale(1.4s)
+}
+
+.arrow {
+  border: solid black;
+  display: inline-block;
+  border-width: 0 3px 3px 0;
+  padding: 4px;
+}
+
+.down {
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+}
+
+li a,i{
+  text-align: center;
+  position: relative;
+  right: 4.375em;
+}
+
+.about {
+  text-align: center;
+  padding: 3.125em;
+}
+
+.heading {
+  margin-top: 1.0625em;
+  font-weight: bold;
+  font-size: 2.4em;
+  line-height: 1;
+}
+
+.about1 {
+  line-height: 1.3;
+  font-size: 1em;
+  margin-top: 1.25em;
+  word-spacing: -1px;
+
+}
+
+.buttons {
+    border: none;
+    border-radius: 0.9375em;
+    font-size: 0.7em;
+    padding-top: 0.875em;
+    justify-content: space-between;
+ 
+    
+  }
+
+.signup {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  padding-left: 1.5625em;
+  margin-left: 1.25em;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: block;
+  margin-top: 0.625em;
+  line-height: 4;
+}
+
+.trust {
+  text-align: center;
+  padding: 3.125em;
+}
+
+.firm {
+  margin-top: 1.0625em;
+  font-weight: bold;
+  font-size: 1.2sem;
+  line-height: 0.5;
+}
+
+.team {
+  line-height: 1.4;
+  font-size: 1em;
+  margin-top: 1.25em;
+  word-spacing: -1px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.flex-items {
+  flex: 0 0 calc(25% - 10px);
+  text-align: center;
+}
+
+.flex-items img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 100px;
+  background: #f7f7f7;
+  width: 12.5em;
+  padding: 1.25em;
+
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin:50px 0;
+  background:black;
+  color:white;
+}
+
+.flex {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  margin-top:50px;
+  margin-left:90px;
+}
+
+.sec {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 20px;
+  /* background-color: #f2f2f2; */
+  border-radius: 5px;
+}
+
+.sec h3 {
+  margin-top: 0;
+}
+
+.sec p {
+  margin-bottom: 0;
+}
+
+#valuations{
+  display:flex;
+  align-items:center;
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  margin-right: 100px;
+}
+
+#valuations h2{
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+#valuations h4{
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+#valuations p{
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.evaluate{
+  width: 450px;
+  margin: 70px;
+}
+
+.reports{
+  margin-left: 25px;
+  width: 270px;
+}
+
+#picture{
+  width: 470px;
+  height: 570px;
+  margin: 65px 90px 20px;
+}
+
+#picture img{
+  max-width: 100%;
+  height:auto; 
+  margin: 0px auto;
+  margin-right:20px;
+  display:flex;
+  justify-content:center;
+}
+
+.solemn{
+  text-align: center;
+  background-color: #6FC247;
+  width: 12.8125em;
+  margin: 10px auto 40px;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+.solemn a{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.solemn:hover{
+  background-color: green;
+  border: 2px solid #6FC247;
+  box-shadow: 1px -1px;
+  transition: 1s;
+}
+
+.solemn a:hover{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+
+
+
+
+
